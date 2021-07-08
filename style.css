@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;0,900;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgb(47, 47, 47);
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-navbar-logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: white;
+    display: inline-block;
+    margin-right: 49rem;
+}
+
+.header-navbar-items {
+    list-style-type: none;
+    font-size: 2rem;
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+
+}
+
+.header-navbar-items-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container-blog {
+    margin: 0 auto;
+    background-color: rgb(241, 241, 241);
+}
+
+.blog-box {
+    width: 40%;
+    padding-top: 3rem;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+}
+
+.blog-box-heading {
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline-block;
+}
+
+.blog-box-blog {
+    font-size: 1.3rem;
+}
+
+.image {
+    width: 60%;
+}
+
+.blog-image {
+    height: 24rem;
+    width: 50rem;
+    display: inline-block;
+    margin-left: 75rem;
+    margin-top: -50rem;
+    padding-bottom: 40px;
+}
+
+.blog-button {
+    margin-top: 2rem;
+    padding: 10px 7px;
+    background-color: rgb(250, 150, 65);
+    font-size: 1.3rem;
+    color: white;
+    box-shadow: black 0.5rem;
+    border-color: coral;
+}
+.container-part{
+    margin-left: 10rem;
+    margin-top: 5rem;
+    display: inline-block;
+}
+.container-part-heading{
+    font-size: 2rem;
+}
+.container-part-blog{
+    width: 30%;
+    display: inline-block;
+    margin-right: 1.2rem;
+}
+.container-part-image{
+    height: 300px;
+    width: 370px;
+    margin-top: 2rem;
+}
+.container-part-blog-lorem-heading{
+    margin-top: 1.3rem;
+    font-size: 1.5rem;
+}
+.container-part-blog-lorem-text{
+    margin-top: 1.3rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.forth-row{
+    background-color: rgb(47, 47, 47);
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+.latest{
+    margin-left: 100px;
+    padding-top: 5rem;
+    width: 30%;
+    display: inline-block;
+}
+.latest-heading{
+    color: white;
+    font-size: 1.7rem;
+    margin-bottom: -1rem;
+}
+.latest-button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.date{
+    display: inline-block;
+}
+.text{
+    display: inline-block;
+    color: white;
+    padding-left: 1rem;
+}
+.text-heading{
+    font-size: 1.3rem;
+    font-weight: bold;
+   
+}
+.text-body{
+    font-size: 1.3rem;
+}
+.about{
+    width: 30%;
+    color: white;
+    display: inline-block;
+    margin-right: 2.5rem;
+}
+.about-heading{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-top: -3rem;
+}
+.about-text{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    text-align: justify;
+}
+.connected{
+    width: 30%;
+    display: inline-block;
+    color: white;
+}
+.connected-heading{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.facebook{
+    height: 30px;
+    width: 30px;
+}
+.connected-text{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+.footer{
+    background-color: white;
+    padding: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold 300;
+    margin-left: 47rem;
+}
